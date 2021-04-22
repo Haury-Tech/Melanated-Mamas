@@ -134,6 +134,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
 
     os.path.join(BASE_DIR, 'comptes/templates/comptes/static'),
+    os.path.join(BASE_DIR, 'melanatedMamas/templates/static'),
 
 )
 
